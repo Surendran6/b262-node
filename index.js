@@ -138,7 +138,7 @@ async function createConnetion(){
     const MONGO_URL = process.env.MONGO_URL;
     const client = new MongoClient(MONGO_URL);
     await client.connect();
-    console.log("successful connected");
+    console.log("successful connected22");
     return client;
     // const users =  await client.db("users").collection("people").findOne({id:"7"})
     // console.log(users)
