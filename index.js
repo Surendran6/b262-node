@@ -42,7 +42,7 @@ import dotenv from "dotenv"
 // const express = require('express');
 const app = express();
 dotenv.config();
-const PORT = 5000;
+const PORT = process.env.PORT;
 
 // tell express what format data you are going to ge - json ,xml,text
 // middleware - gatekeeper
